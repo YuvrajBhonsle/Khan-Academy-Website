@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    /* width: 90%; */
+    color: #1864f2;
+    margin: 0 4em;
+}
+
+.left-section{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-left: 2em;
+    align-items: center;
+}
+
+.search-box{
+    margin-left: 2em;
+    padding-right: 1em;
+    background: #f0f1f2;
+    border-radius: 3px;
+}
+
+.right-section{
+    /* border: 1px solid green; */
+    margin-right: 2em;
+}
+
+.logo img{
+    width: 200px;
+}
+
+input::placeholder{
+    color: #1864f2;
+    padding: 1em 0;
+}
+
+input{
+    background: #f0f1f2;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+.fa-sharp, .fa-magnifying-glass{
+    color: gray;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #1864f2;
+}
+
+/* Hero section */
+section{
+    margin: 3em 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    height: 100vh;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    /* border: 1px solid green; */
+}
+
+.img-container > img{
+    width: 500px;
+    margin-right: 1em;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Source Serif Pro', serif;
+    color: #222;
+}
+
+p{
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+.content-links{
+    margin-top: 2.5em;
+}
+
+.content-links li{
+    margin-left: 1px;
+}
+
+.content-links a{
+    background: #1864f2;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+footer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f1f2;
+}
+
+h2{
+    font-family: 'Source Serif Pro', serif;
+    color: #222;
+    font-size: 2.5rem;
+}
